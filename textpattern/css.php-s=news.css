@@ -1,0 +1,414 @@
+/* 
+==========================================================
+Southwest Church Planting Network (PCA)
+plantchurch.org
+Stylesheet 
+created by Brian Zerangue, Park Cities Presbyterian Church 
+revised on January 15, 2008
+-- added hm-announcement id and hm-welcome id
+Version 1
+==========================================================
+*/
+
+/* 
+--------------------------------------------------
+Basic Styles 
+--------------------------------------------------
+*/
+
+body {
+	font: 12px/145% Arial, Helvetica, sans-serif;
+	color: #222222;
+	margin: 0;
+	padding: 40px 0 40px 0;
+	background-color: #FFFFFF;
+	text-align: center; 
+	}
+
+a {
+	color: #336666;
+	text-decoration: underline; 
+	}
+
+a:hover {
+	color:#336666;
+	text-decoration: none; 
+	}
+
+/* 
+--------------------------------------------------
+Container Styles
+--------------------------------------------------
+*/
+
+#pagewrap {
+	width: 742px;
+	padding: 0;
+	margin: 0 auto 0 auto; 
+	}
+
+#wrap {
+	width: 742px;
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF;
+	text-align: left; 
+	}
+
+/* 
+--------------------------------------------------
+Content Wrap
+--------------------------------------------------
+*/
+
+#contentwrap {
+	width: 742px;
+	margin: 0;
+	padding: 0;
+	}
+
+/* Fixing min-height by Dave Shea */
+/* for Mozilla/Safari */
+
+*>#contentwrap {
+	padding-top: 320px !important;
+	height: auto !important;
+	height: 320px;
+	min-height: 1px; 
+	}
+
+*>#contentwrap .wrapper {
+	margin-top: -320px; 
+	}
+
+/* for IE, with IE5/Mac backslash filter \*/
+
+* html #contentwrap .wrapper {
+	height: 320px; 
+	}
+
+/* end filter */
+
+/* 
+--------------------------------------------------
+Content Wrap
+--------------------------------------------------
+*/
+
+#thecontentwrapper {
+	width: 742px;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 0; 
+	}
+
+/* 
+--------------------------------------------------
+Masthead
+--------------------------------------------------
+*/
+
+#masthead {
+	width: 742px;
+	height: 166px;
+	margin: 0;
+	padding: 0; 
+	display: block;
+	}
+
+#masthead h1 {
+	width: 166px;
+	height: 156px;
+	background-image: url("../images/swcpn_logo.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	float: left; 
+	}
+
+#masthead h1 span {
+	display: none; 
+	}
+
+#masthead img {
+	float: left; 
+	}
+
+/* 
+--------------------------------------------------
+Main Navigation Bar Style
+--------------------------------------------------
+*/
+
+#navbar { 
+	margin: 0 0 0 20px;
+	padding: 0;
+	width: 712px;
+	border-bottom: 1px solid #666666;
+	text-align: left;
+	background-color: #FFFFFF; 
+	}
+
+#navbar a {
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none; 
+	}
+
+#navbar a:hover {
+	color: #888888;
+	font-weight: bold;
+	text-decoration: none; 
+	}
+
+#navbar ul {
+	margin: 0 0 0 20px;
+	padding: 2px 0 6px 0;
+	}
+
+#navbar ul li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 10px 0 0;
+	padding: 0; 
+	}
+
+/*
+--------------------------------------------------
+DETAIL PAGE STYLES
+--------------------------------------------------
+*/
+
+/* DETAIL CONTENT AREA */
+
+#detailfeature {
+	width: 576px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	}
+
+/* Detail Page Featured Content Styles */
+
+#featuredcontent {
+	width: 526px;
+	padding: 10px 0 10px 0;
+	margin: 0 42px 0 8px; 
+	}
+
+.featureclass {
+	padding: 0 0 4px 0; 
+	}
+
+/* Detail Page Other Content Styles */
+
+#othercontent {
+	width: 530px;
+	padding: 0;
+	margin: 0 10px 0 0;
+	display:block;
+	}
+
+.otherclass {
+	padding: 0 0 12px 0;
+	width: 530px;
+	margin: 0 5px 0 0; 
+	}
+
+#featuredcontent h2, #othercontent h2, #subnavbarother h2 {
+	color: #485C98;
+	margin: 0;
+	padding: 8px 0 10px 0;
+	font-size: 28px; 
+       line-height: 125%;
+	}
+
+#featuredcontent h3, #othercontent h3, #subnavbarother h3 {
+	color: #777777;
+	margin: 0;
+	padding: 3px 0 7px 0;
+	font-size: 18px; 
+        line-height: 120%;
+	}
+
+#featuredcontent h4, #othercontent h4, #subnavbarother h4 {
+	color: #395560;
+	margin: 0;
+	padding: 0 0 3px 0;
+	font-size: 14px; 
+	}
+
+#featuredcontent h5, #othercontent h5, #subnavbarother h5 {
+	color: #555555;
+	margin: 0;
+	padding: 0 0 3px 0;
+	font-size: 13px;
+	}
+
+#featuredcontent p, #othercontent p, #subnavbarother p {
+	margin: 0;
+	padding: 0 0 8px 0;
+	}
+
+p.header5 {
+        color: #555555;
+        margin: 0;
+        padding: 6px 0 0 0;\
+        font-size: 13px;
+        font-weight: bold;
+        }
+
+/* SUB NAVBAR AREA */
+
+#subnavbar {
+	width: 166px;
+	padding: 0;
+	margin: 0;
+	float:left; }
+
+#subnavbarshelltop {
+	width: 166px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	}
+
+#subnavbarshellmiddle {
+	width: 166px;
+	margin: 0;
+	padding: 0;
+	}
+
+#subnavbarshellbottom {
+	width: 166px;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	}
+
+#subnavbarshellmiddle ul {
+	margin:0;
+	padding: 8px 0 2px 0; 
+	}
+
+#subnavbarshellmiddle ul li {
+	margin: 0;
+	padding-bottom: 3px;
+	list-style-type: none; 
+	}
+
+#subnavbarlogo {
+	width: 156px;
+	margin: 0 0 0 0;
+	padding: 12px 0 0 0; 
+	}
+
+#subnavbaritems {
+	width: 156px;
+	margin: 0 0 0 10px;
+	}
+
+#subnavbaritems a {
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+#subnavbaritems a:hover {
+	font-weight: bold;
+	text-decoration: underline; 
+	}
+
+#subnavbarother {
+	width: 156px;
+	margin: 0 0 0 10px;
+	padding: 8px 0 8px 0; }
+
+.subnavbarclass {
+	padding: 5px 0 0 0; 
+	}
+
+/*
+--------------------------------------------------
+HOME ANNOUNCEMENT ID
+--------------------------------------------------
+*/
+
+#hm-announcements {
+background: #E0ECF3;
+padding: 10px 20px;
+}
+
+/*
+--------------------------------------------------
+HOME WELCOME ID
+--------------------------------------------------
+*/
+
+#hm-welcome {
+padding: 10px 20px;
+}
+
+/*
+--------------------------------------------------
+NEWS-GROUP CLASS
+--------------------------------------------------
+*/
+
+div.news-group {
+padding: 0 0 15px 0;
+}
+
+/*
+--------------------------------------------------
+Clear Fix Class
+--------------------------------------------------
+*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden; 
+	}
+
+.clearfix {
+	display: inline-table; 
+	}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+	height: 1%; 
+	}
+
+.clearfix {
+	display: block; 
+	}
+
+/* End hide from IE-mac */
+
+/* 
+--------------------------------------------------
+FOOTER STYLES
+--------------------------------------------------
+*/
+
+#footer {
+	width: 742px;
+	padding: 0;
+	margin: 0; 
+	background-image: url("../images/footer_bg.gif");
+
+	background-repeat: no-repeat;
+	background-position: center right;
+	}
+
+#footer p {	
+	width: 400px;
+	height: 24px;
+	text-align: left;
+	margin: 0 0 0 193px;
+	padding: 5px 0 0 0;
+	font-size: 10px; 
+	color: #777777;
+	}
